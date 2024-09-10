@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SecureEye: AI-Powered Smart Contract Auditor
+
+SecureEye is an advanced AI-powered tool designed to audit smart contracts, providing developers with comprehensive security analysis and optimization suggestions.
+
+## Features
+
+- **AI-Powered Auditing**: Utilizes state-of-the-art AI models to analyze smart contracts for security vulnerabilities, performance issues, and best practices.
+- **Interactive UI**: User-friendly interface for uploading and analyzing smart contracts.
+- **Detailed Reports**: Generates in-depth audit reports covering security, performance, code quality, and documentation.
+- **Metric Scoring**: Provides numerical scores for various aspects of the smart contract, allowing for quick assessment.
+- **Improvement Suggestions**: Offers actionable suggestions to enhance the security and efficiency of the smart contract.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14 or later)
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```
+   git clone https://github.com/Shubh-k04/SecureEye.git
+   cd SecureEye
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
 
-## Learn More
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory and add your Gemini API key:
+   ```
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the development server:
+   ```
+   npm run dev
+   ```
+   or
+   ```
+   yarn dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+1. Paste your smart contract code into the editor or upload a Solidity file.
+3. Click the "Audit" button to start the analysis.
+4. View the detailed audit report, including security analysis, performance metrics, and improvement suggestions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Future Scope
+1. Use the "Fix" button to automatically apply suggested improvements (if available).
+2. Integrate video conferencing capabilities to facilitate direct interactions between users and audit experts, enhancing support and consultation experiences.
+3. User Sign Up page and connect using Metamask
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License
+
+## Acknowledgments
+
+- Gemini AI for powering the smart contract analysis
+- OpenAI for inspiration and guidance in AI-powered development tools
+
+## Support
+
+If you encounter any issues or have questions, please file an issue on the GitHub repository.
+
+---
+
+Built with ❤️ by [Team Shoguns]
